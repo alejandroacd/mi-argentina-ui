@@ -1,5 +1,4 @@
 'use client'
-import StatusBar from "@/components/status-bar"
 import Header from "@/components/header"
 import IdCard from "@/components/id-card"
 import LastUpdate from "@/components/last-update"
