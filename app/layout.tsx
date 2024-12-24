@@ -1,5 +1,4 @@
 import '@/app/globals.css'
-import { Roboto } from 'next/font/google'
 
 export const metadata = {
   title: 'DNI Digital',
