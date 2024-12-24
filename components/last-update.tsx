@@ -22,10 +22,9 @@ export default function LastUpdate() {
       setDateTime(`${formattedDate} ${formattedTime} hs`)
     }
 
-    updateDateTime()
-    const interval = setInterval(updateDateTime, 1000)
-    return () => clearInterval(interval)
-  }, [])
+    updateDateTime() // Call once when component is rendered
+
+  }, []) // Empty dependency array ensures this runs only once after the first render
 
   return (
     <div className="text-center my-5 text-gray-500 text-sm py-2">
@@ -33,4 +32,3 @@ export default function LastUpdate() {
     </div>
   )
 }
-
