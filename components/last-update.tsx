@@ -28,7 +28,7 @@ export default function LastUpdate() {
 
   return (
     <div className="text-center my-5 text-gray-500 text-sm py-2">
-      Última actualización: {dateTime}
+      <span className="font-medium">Última actualización:</span> {dateTime}
     </div>
   )
 }
